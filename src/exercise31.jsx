@@ -3,7 +3,7 @@
 export default function Exercise31() {
     return (
         <>
-      <div class="intro">
+      <div className="intro">
         <h1>Module 3</h1>
       </div>
       <p className="summary">
