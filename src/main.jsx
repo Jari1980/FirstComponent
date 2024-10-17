@@ -1,15 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-//Fifth exercises
+import Exercise63 from './exercise63.jsx'
+import Exercise62 from './exercise62.jsx'
+import Exercise61 from './exercise61.jsx'
 import Exercise52 from './exercise52.jsx'
 import Exercise51 from './exercise51a.jsx'
-//Fourth exercises
 import Exercise43 from './exercise43.jsx'
 import Exercise42 from './exercise42.jsx'
 import Exercise41 from './exercise41.jsx'
-//Third exercise
 import Exercise31 from './exercise31.jsx'
-//Second exercise
 import Exercise21Gal from './exercise21Gal.jsx'
 import Exercise21Pro from './exercise21Pro.jsx'
 //First exercises
@@ -22,7 +21,11 @@ import Exercise4 from './exercise4.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h>Fifth module exercises</h>
+    <h2>Sixth module exercises</h2>
+    <Exercise63 />
+    <Exercise62 />
+    <Exercise61 />
+    <h2>Fifth module exercises</h2>
     <Exercise52 />
     <Exercise51 />
     <h2>Fourth module exercises</h2>
